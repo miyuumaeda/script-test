@@ -17,6 +17,11 @@ public class Test : MonoBehaviour
         array[3] = 60;
         array[4] = 50;
 
+        for (int i = 0; i < array.Length; i++)
+        {
+            Debug.Log("array[" + i + "] = " + array[i]);
+        }
+
 
         // 逆順で5回処理を繰り返す
         for (int i = array.Length - 1; i >= 0; i--)
